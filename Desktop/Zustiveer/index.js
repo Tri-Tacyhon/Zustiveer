@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const Self = require("discord.js-self");
 const { Client, Intents } = require('discord.js');
     
 const bot = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
